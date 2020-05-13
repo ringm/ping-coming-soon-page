@@ -1,3 +1,16 @@
 .d-none {
    display: none;
 }
+
+.strong {
+   font-weight: $font-bold;
+}
+
+.hide-error {
+   transform: translateY(-50px);
+   opacity: 0;
+}
+
+.hide {
+   opacity: 0;
+}

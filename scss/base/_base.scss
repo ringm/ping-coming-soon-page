@@ -23,8 +23,18 @@ fieldset {
 
 input {
    width: 100%;
+   outline: none;
 }
 
 img {
    max-width: 100%;
+}
+
+button {
+   border: none;
+}
+
+ul {
+   list-style: none;
+   padding: 0;
 }

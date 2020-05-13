@@ -1,0 +1,28 @@
+.form {
+
+   margin: 2em 0;
+
+   @include mq {
+      display: flex;
+   }
+
+}
+
+.fieldset {
+   width: 100%;
+   text-align: left;
+}
+
+
+.input {
+   border-radius: 100px;
+   border: 1px solid $gray;
+   padding: 1em 1.5em;
+   margin-bottom: 1em;
+   height: 55px;
+
+   &:focus {
+      border: 1px solid $very-dark-blue;
+      color: $very-dark-blue;
+   }
+}

@@ -1,0 +1,8 @@
+.copyright__list {
+   display: flex;
+   justify-content: center;
+
+   &-item+&-item {
+      margin-left: 1.5em;
+   }
+}

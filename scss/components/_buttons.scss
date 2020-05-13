@@ -1,0 +1,23 @@
+.btn {
+   background-color: $blue;
+   border-radius: 100px;
+   display: block;
+   width: 100%;
+   padding: 1em 3em;
+   text-align: center;
+   color: $white;
+   font-weight: $font-semi-bold;
+   transition: 0.5s;
+   cursor: pointer;
+   margin-bottom: 1em;
+   height: 55px;
+
+   &:hover {
+      background-color: $light-blue;
+   }
+
+   @include mq {
+      width: 40%;
+      margin-left: 1em;
+   }
+}

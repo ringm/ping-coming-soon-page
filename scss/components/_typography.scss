@@ -1,12 +1,40 @@
 .attribution {
+   font-family: $font-primary;
    font-size: 11px;
    text-align: center;
 }
 
 .attribution a {
    color: hsl(228, 45%, 44%);
+   text-decoration: none;
+
+   &:hover {
+      color: $blue;
+   }
 }
 
 .landing {
    font-family: $font-primary;
+
+   &__title {
+      font-weight: $font-light;
+      transition: 1s;
+   }
+}
+
+.error-msg {
+   padding-left: 2.5em;
+   font-size: .8rem;
+   color: $light-red;
+   margin-top: 0;
+   transition: .5s;
+   transform: translateY(0);
+}
+
+.copyright {
+
+   &__text {
+      color: $gray;
+      font-size: .85rem;
+   }
 }

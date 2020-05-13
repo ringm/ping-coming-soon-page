@@ -1,5 +1,17 @@
 .landing {
    text-align: center;
+   min-height: 95vh;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 8vh auto 1fr auto;
+
+   &__content {
+      grid-row: 2/3;
+   }
+
+   &__copyright {
+      grid-row: 4/5;
+   }
 }
 
 .container {
